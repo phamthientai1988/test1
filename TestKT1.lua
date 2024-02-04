@@ -2925,7 +2925,7 @@ function BOOSTFPS()
         end
     end)
 end
-
+BOOSTFPS()
     local x2Code = {
         "JULYUPDATE_RESET",
         "staffbattle",
