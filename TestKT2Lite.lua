@@ -7,7 +7,7 @@ elseif game.PlaceId == 7449423635 then
 else
     game:GetService("Players").LocalPlayer:Kick("Do not Support, Please wait...")
 end
-
+_G.AutoSuperhuman = true
 function CheckQuest() 
     MyLevel = game:GetService("Players").LocalPlayer.Data.Level.Value
     if World1 then
@@ -3427,14 +3427,14 @@ _G.AutoBudySword = false
 _G.AutoNevaSoulGuitar = false    
 --StopTween(_G.AutoNevaSoulGuitar)
 _G.AutoObservationHakiV2 = false  
-Auto_Cursed_Dual_Katana = Value
-_G.Autotushita = Value
-_G.AutoCarvender = Value
-_G.AutoTwinHook = Value
+Auto_Cursed_Dual_Katana = false
+_G.Autotushita = false
+_G.AutoCarvender = false
+_G.AutoTwinHook = false
 --Flag = "Auto dummy",
-_G.Namfon = Value
-_G.AutoFarmBossHallow = Value
-_G.AutoDarkDagger = Value
+_G.Namfon = false
+_G.AutoFarmBossHallow = false
+_G.AutoDarkDagger = false
 
         spawn(function()
             pcall(function()
